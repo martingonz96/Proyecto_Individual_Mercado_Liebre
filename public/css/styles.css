@@ -1,0 +1,683 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #ebebeb;
+}
+
+h3{
+    font-size: 24px;
+}
+
+p{
+    font-size: 12px;
+}
+div.top-header{
+        padding: 5%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+}
+
+.logo {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 10px;
+}
+
+div.logo img {
+    width: 150px;
+}
+
+div p.cuotas {
+    width: 100%;
+}
+
+.bloque-cuotas {
+    margin: auto;
+    margin-top: 20px;
+}
+
+.search-bar {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+    
+.search-bar form { 
+    background: whitesmoke;
+    align-items: center;
+    box-sizing: border-box;
+    border-radius: 60px;
+    border: solid 2px #FFF;
+    margin: auto;
+}
+
+.search-bar input {
+    
+    background: whitesmoke;
+    border: 0;
+    outline: none;
+
+}
+
+.search-bar button {
+    border: 0;
+    border-radius: 50%;
+    background: whitesmoke;
+
+}
+
+.search-bar button i{
+    border: 0;
+    border-radius: 50%;
+    background: whitesmoke;
+
+}
+
+p.cuotas {
+    text-align: center;
+}
+
+
+
+
+
+
+
+header{
+    background-color: #EAC926;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+}
+
+
+nav{
+    display: none;
+    font-size: 12px;
+}
+
+
+header ul li{
+    list-style-type: none;
+}
+
+header ul li a{
+    text-decoration: none;
+    color: #000;
+}
+
+header .form .input{
+    background-color: #FFF;
+    border: 1px solid #000;
+    outline: none;
+    color: #666;
+    padding: 2px;
+}
+header .form .submit{
+    background-color: #FFF;
+    border: 1px solid #000;
+    color: #666;
+    width: 10%;
+}
+
+header div.top-header p{
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+}
+
+div.burger-menu{
+    text-align: center;
+}
+
+div.burger-menu i{
+    background-color: #0044AA;
+    border-radius: 5px;
+    color: #FFF;
+    font-size: 20px;
+    height: 40px;
+    margin: 10px 0px 20px 0px;
+    padding: 10px;
+    width: 40px;
+}
+
+.banner {
+    margin-top: 210px;
+}
+
+.price{
+    font-size: 18px;
+}
+
+.discount,
+.description{
+    font-size: 16px;
+    font-weight: normal;
+}
+
+h3,
+.description{
+    color: #666;
+}
+
+.description{
+    display: none;
+    margin-top: 20px;
+    transition: all 450ms;
+}
+
+
+
+
+
+
+section.banner img{
+    width: 100%;
+}
+
+main{
+    width: 90%;
+    margin: auto;
+}
+
+main section article{
+    background-color: #fff;    
+    margin: 10px 0px;
+}
+
+main section article img{
+    width: 100%;
+}
+
+main section article i,
+.discount{
+    color: #39b54a;
+}
+
+.main-article {
+    position: relative;
+}
+
+main section article i{
+        text-align: center;
+        display: block;
+        font-size: 15px;
+        padding: 5px;
+        width: 30px;
+        height: 30px;
+        border: 1px solid #39b54a;
+        background-color: #FFF;
+        border-radius: 50%;
+        position: absolute;
+        right: 20px;
+        top: -15px;
+        box-sizing: border-box;
+        margin: auto;
+        }
+
+main section h3{
+    margin: 20px 0px;
+}
+
+article div.main-article{
+    width: 100%;
+    border-top: 1px solid #ebebeb;
+    padding: 15px;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: white;
+    font-size: 2em;
+    margin-bottom: 10px;
+    
+    padding: 20px;
+}
+
+
+#icono-footer {
+    color: #1259c3;
+    margin-top: 10px;
+}
+
+.copyright {
+    text-align: left;
+    color: #666;
+    margin-top: 20px;
+}
+
+/* form */
+
+main.formulario {
+    padding: 20px 25px;
+    margin-top: 200px;
+    
+    
+}
+
+form {
+   
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.campo {
+    
+    margin-bottom: 15px;
+}
+
+.campo label {
+    margin-bottom: 5px;
+}
+
+.control {
+    width: 100%;
+    padding: 8px 8px;
+    border-radius: 8px;
+    border: 0;
+    margin-top: 10px;
+}
+
+label.form-titulos {
+    text-align: left;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+div.fecha-tag {
+    
+    text-align: left;
+}
+
+input.fecha {
+    width: 50%;
+    text-align: center;
+}
+
+div.opciones-1 {
+    font-size: 10px;
+    text-align: center;
+    margin-top: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.opcion {
+    font-size: 15px;
+    padding: 0px 10px;
+}
+
+div.foto {
+    display: flex;
+    flex-direction: column;
+}
+
+input.foto-archivo {
+    font-size: 10px;
+}
+
+.opcion-2 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+
+div.opcion-2 label {
+    
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.control-2 {
+    margin: 10px 10px;
+}
+
+.submit {
+    width: 100%;
+    border-radius: 5px;
+    padding: 6.5px;
+    border: 0px;
+    background: green;
+    transition: all 450ms;
+    color: #FFF;
+}
+
+.submit:hover {
+    background: #1259c3;
+}
+
+.reset {
+    width: 100%;
+    border-radius: 5px;
+    padding: 6.5px;
+    border: 0px;
+    background: #a93c2d;
+    color: #FFF;
+}
+
+div.campo button.submit {
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+@media (min-width: 420px){
+
+    header{
+        position: static;
+    }
+
+    .banner {
+        margin: 0;
+    }
+
+    div.top-header {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    div.logo {
+        margin: 10px;
+    }
+
+    div.logo img {
+        width: 200px;
+    }
+
+    div.search-bar  {
+        width: 200px;
+        margin: 10px;
+    }
+
+
+    .bloque-cuotas {
+        font-size: 16px;
+        padding: 10px;
+    }
+
+    .bloque-cuotas {
+        margin: 0;
+    }
+
+    header div.top-header p {
+        margin: 0;
+    }
+       
+    
+
+    div.burger-menu {
+        display: none;
+    }
+
+    nav.main-navbar {
+        display: flex;
+        flex-wrap: wrap;
+        font-size: 12px;
+        justify-content: space-between;
+        padding: 15px;
+        font-size: 14px;
+    }
+
+    .right-navbar {
+        margin: 10px;
+    }
+
+    .left-navbar {
+        margin: 10px;
+    }
+
+    .right-navbar li a{
+
+        margin: 3px;
+    }
+
+    .left-navbar li a{
+
+        margin: 3px;
+    }
+
+    .right-navbar {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .left-navbar {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+main section article {
+        background-color: #fff;
+         margin: 10px 10px; 
+    }
+
+div.products {
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: space-around;
+     align-items: center;
+     flex-direction: row;
+}
+
+article {
+    flex: 35%;
+    justify-content: space-around;
+}
+
+    .description{
+        display: block;
+        visibility: hidden;
+    }
+
+     
+    main section article:hover .description {
+        visibility: visible;
+    }
+
+    main section article i {
+        transition: transform 450ms;
+    }
+ main section article:hover i {
+        transform: rotate(270deg);
+    }
+
+
+    main section article{
+        transition: all;
+    }
+
+    main section article:hover {
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
+
+    main.formulario {
+        padding: 20px 25px;
+        margin: auto;
+
+    }
+
+    footer {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    
+    div.elemento-footer {
+        margin: 1.5px;
+        flex: 30%;
+    }
+    
+    .copyright {
+        text-align: left;
+        display: flex;
+        width: 100%;
+    }
+}
+
+
+
+
+
+@media (min-width: 769px){
+
+    .banner {
+        margin: 0;
+    }
+ 
+
+    div.search-bar form  {
+        width: 100%;
+    }
+
+    header div.top-header p {
+        font-size: 16px;
+    }
+
+
+    #submit {
+        margin: auto;
+        
+        height: 30px;
+        padding: 5px;
+        
+       display: block;
+    }
+
+    div.burger-menu {
+        display: none;
+    }
+
+    nav{
+        display: block;
+        font-size: 12px;
+    }
+
+    nav.main-navbar {
+        padding: 30px;
+        font-size: 16px;
+        
+    }
+
+    div.top-header {
+        padding: 0;
+    }
+
+    .description{
+        display: none;
+    }
+     
+    .description:hover {
+        display: block;
+    }
+
+    .description{
+        display: block;
+        visibility: hidden;
+        transition: all 1s;
+    }
+
+    main section article i {
+        transition: transform 450ms;
+    }
+
+     
+    main section article:hover .description {
+        visibility: visible;
+    }
+
+    main section article:hover i {
+        transform: rotate(270deg);
+    }
+
+
+    main section article{
+        transition: all;
+    }
+
+    main section article:hover {
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
+
+div.products {
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: space-around;
+     align-items: center;
+     flex-direction: row;
+}
+
+article {
+    flex: 20%;
+    justify-content: space-around;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+main.formulario {
+    padding: 20px 25px;
+    margin: auto;
+
+}
+
+div.elemento-footer {
+    margin: 1.5px;
+    flex: 30%;
+}
+
+.copyright {
+    text-align: left;
+    display: flex;
+    width: 100%;
+}
+
+}
+
+@media (min-width: 1180px) {
+
+    div.logo img {
+        width: 100%;
+    }
+
+    div.search-bar {
+        width: 500px;
+    }
+
+
+div.search-bar form {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+header div.top-header p {
+    font-size: 16px;
+}
+
+main.formulario {
+    padding: 20px 25px;
+    margin: auto;
+}
+}

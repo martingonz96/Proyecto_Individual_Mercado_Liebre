@@ -246,8 +246,13 @@ footer {
 
 
 #icono-footer {
-    color: #1259c3;
+    color: #39b54a;
     margin-top: 10px;
+    transition: color 450ms;
+}
+
+#icono-footer:hover {
+    color: #1259c3;
 }
 
 .copyright {

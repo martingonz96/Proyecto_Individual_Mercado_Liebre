@@ -1,10 +1,17 @@
 const express = require ("express");
-
 const app = express();
+const mainRouter = require('./routes/mainRouter')
 
-const path = require ("path");
+
+
 
 const see = app.use(express.static("public"));
+app.set('view engine', 'ejs');
+app.set('views', './views')
+
+
+
+app.use('/', mainRouter)
 
 
 const port = process.env.PORT || 3001;
@@ -12,17 +19,4 @@ const port = process.env.PORT || 3001;
 app.listen(port, () => {
     console.log(`Example app listening on port ${port}`)
   })
-
-
-app.get("/", (req, res) => {
-    res.sendFile(path.join(__dirname, "./views/home.html"))
-})
-
-app.get("/register", (req, res) => {
-    res.sendFile(path.join(__dirname, "./views/register.html"))
-})
-
-app.get("/login", (req, res) => {
-    res.sendFile(path.join(__dirname, "./views/login.html"))
-})
 
